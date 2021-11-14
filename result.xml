@@ -1,0 +1,11 @@
+	^>
+			alert("This is JS!")
+		<^
+BLOCK
+	%>
+			<p>This is HTML!</p>
+		<%
+BLOCK
+	$>
+			/*This is CSS.*/
+		<$
