@@ -1,13 +1,14 @@
 doc{
-	data{ //This is the <head>
+	//This is the <head>
+	data[
 		title=Example page
 		icon=foobar.ico
-	}
+	]
 	main{ //This is the <body>
-		text(color=blue)[
+		text(color=blue){
 			Hello, world!
 			Welcome to .pwf!
-		]
+		}
 		^>
 			alert("This is JS!")
 		<^
