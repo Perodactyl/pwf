@@ -71,6 +71,6 @@ chunks.forEach((chunk)=>{
 		var r = new RegExp(cmps[1],cmps[2])
 		strChunk = strChunk.replace(r,regs[reg])
 	})
-	out += chunk
+	out += strChunk
 })
 fs.writeFileSync("result.xml",out)

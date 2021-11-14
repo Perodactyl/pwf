@@ -1,0 +1,20 @@
+{
+  "name": "pwf",
+  "version": "1.0.0",
+  "description": "PWF parser",
+  "main": "toXML.js",
+  "scripts": {
+    "test": "tsc toXML.ts && node toXML.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perodactyl/pwf.git"
+  },
+  "author": "Perodactyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perodactyl/pwf/issues"
+  },
+  "homepage": "https://github.com/Perodactyl/pwf#readme",
+  "dependencies": {}
+}
